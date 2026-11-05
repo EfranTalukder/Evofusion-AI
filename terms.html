@@ -37,7 +37,7 @@
     @keyframes fadeUp { from { opacity:0; transform:translateY(20px); } to { opacity:1; transform:translateY(0); } }
     .page-fade { animation: fadeUp 0.7s cubic-bezier(0.16,1,0.3,1) 0.1s both; }
 
-    #main-nav { transition: background 0.3s cubic-bezier(0.16,1,0.3,1), border-color 0.3s; }
+    #main-nav { border-bottom: 1px solid transparent; transition: background 0.3s cubic-bezier(0.16,1,0.3,1), border-color 0.3s; }
     #main-nav.scrolled {
       background:rgba(10,10,15,0.85) !important; backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px);
       border-bottom:1px solid rgba(168,155,255,0.1);
